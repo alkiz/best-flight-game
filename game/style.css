@@ -1,0 +1,28 @@
+/* Sky Courier — Island Run: page chrome around the canvas. */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #081426; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #f1f5f9;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#app { width: min(1280px, 100vw); padding: 12px; }
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.55);
+  background: #2b6cb0;
+  cursor: crosshair;
+  touch-action: none;
+}
+#hint {
+  margin: 10px 4px 0;
+  font-size: 13px;
+  color: #94a3b8;
+  text-align: center;
+}
